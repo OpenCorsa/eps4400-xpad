@@ -1,9 +1,14 @@
 # Gamepad controller for EPS4400-pico
 
-The main goals for this tool is:
-* Providing easy to use (mainly for debugging & development of new features) way of controlling [eps4400-pico](https://github.com/OpenCorsa/eps4400-pico) board,
-* Alternative way of controlling car's steering wheel (i.e. for people with disabilities),
-* Remote steering mechanism (depending on your controller's range, would require also implementing remote accelration & braking systems).
+The main goals for this tool is to provide:
+* Easy to use (mainly for debugging & development of new features) controller for [eps4400-pico](https://github.com/OpenCorsa/eps4400-pico) board
+* Alternative way of controlling car's steering wheel (i.e. for people with disabilities)
+* Car remote steering mechanism (depending on your controller's range)
+
+Project requirements:
+* Linux machine (i.e. Raspberry Pi)
+* CanBus interface for connecting to [eps4400-pico](https://github.com/OpenCorsa/eps4400-pico)
+* USB / Bluetooth connection for pad
 
 Project objectives:
 * [ ] [Controller support](#supported--tested-controllers)
