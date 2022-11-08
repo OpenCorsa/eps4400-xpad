@@ -1,0 +1,3 @@
+[submodule "include/simple-xpad"]
+	path = include/simple-xpad
+	url = https://github.com/adamczykpiotr/simple-xpad
