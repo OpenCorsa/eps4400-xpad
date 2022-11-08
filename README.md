@@ -1,4 +1,4 @@
-# Gamepad controller for EPS4400-pico
+# Xbox One controller for EPS4400-pico
 
 The main goals for this tool is to provide:
 * Easy to use (mainly for debugging & development of new features) controller for [eps4400-pico](https://github.com/OpenCorsa/eps4400-pico) board
@@ -6,9 +6,8 @@ The main goals for this tool is to provide:
 * Car remote steering mechanism (depending on your controller's range)
 
 Project requirements:
-* Linux machine (i.e. Raspberry Pi)
-* CanBus interface for connecting to [eps4400-pico](https://github.com/OpenCorsa/eps4400-pico)
-* USB / Bluetooth connection for pad
+* Linux machine (i.e. Raspberry Pi) with CAN-Bus kernel module
+* Xbox One pad
 
 ## Building
 * Clone using `git clone --recurse-submodules git@github.com:OpenCorsa/eps4400-xpad.git`
@@ -16,7 +15,7 @@ Project requirements:
 
 ## Controller mapping
 * Xbox button - toggle state (enable or disable output)
-* Left joystick - steer using x-asix
+* Left joystick - steer using x-axis
 * Right joystick - zero-out position by pressing
 * Menu button - toggle angle & torque steering modes (only when output is active)
 
