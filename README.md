@@ -10,28 +10,15 @@ Project requirements:
 * CanBus interface for connecting to [eps4400-pico](https://github.com/OpenCorsa/eps4400-pico)
 * USB / Bluetooth connection for pad
 
-Project objectives:
-* [ ] [Controller support](#supported--tested-controllers)
-* [ ] [Steering using torque](#torque-steering)
-* [ ] [Steering using angle](#angle-steering)
-* [ ] [Safety features](#safety)
-
-## Supported & tested controllers
-
-```tbd```
+## Building
+* Clone using `git clone --recurse-submodules git@github.com:OpenCorsa/eps4400-xpad.git`
+* Import project in IDE of choice or simply run `cmake . && make`
 
 ## Controller mapping
+* Xbox button - toggle state (enable or disable output)
+* Left joystick - steer using x-asix
+* Right joystick - zero-out position by pressing
+* Menu button - toggle angle & torque steering modes (only when output is active)
 
-```tbd```
-
-### Torque steering
-
-```tbd```
-
-### Angle steering
-
-```tbd```
-
-### Safety 
-
-```tbd```
+## To-do
+* [ ] Handle CAN-Bus output to sync with board state (listen to output)
