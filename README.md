@@ -10,7 +10,7 @@ Project requirements:
 * Xbox One pad
 
 ## Building
-* Clone using `git clone --recurse-submodules git@github.com:OpenCorsa/eps4400-xpad.git`
+* Clone using `git clone --recurse-submodules https://github.com/OpenCorsa/eps4400-xpad.git`
 * Import project in IDE of choice or simply run `cmake . && make`
 
 ## Controller mapping
